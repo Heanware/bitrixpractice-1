@@ -1,0 +1,1 @@
+<img src="/local/templates/marshall-template/assets/img/logo.svg" alt="">

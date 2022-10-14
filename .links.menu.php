@@ -1,0 +1,31 @@
+<?php
+$aMenuLinks = array(
+    array(
+        "spotify",
+        "/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "facebook",
+        "/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "instagram",
+        "/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "pinterest",
+        "/",
+        array(),
+        array(),
+        ""
+    ),
+);

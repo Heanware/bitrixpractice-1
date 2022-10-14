@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = array(
+    array(
+        "headphones",
+        "/headphones/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "speakers",
+        "/speakers/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "accessories",
+        "/accessories/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "amps",
+        "/amps/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "marshall records",
+        "/records/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "history",
+        "/history/",
+        array(),
+        array(),
+        ""
+    )
+);
+?>
