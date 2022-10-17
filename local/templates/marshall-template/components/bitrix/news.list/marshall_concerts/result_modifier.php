@@ -10,5 +10,5 @@ if (!empty($arParams["DETAIL_ELEMENT_ID"])){
                 $concert["PROPERTIES"]["CONCERT_ARTIST"]["VALUE"]);
         });
 
-    $arResult["CONCERTS"] = $concerts;
+    $arResult["ITEMS"] = $concerts;
 }

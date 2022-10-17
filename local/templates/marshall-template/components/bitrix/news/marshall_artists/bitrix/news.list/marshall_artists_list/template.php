@@ -3,9 +3,9 @@
 <section class="artists">
     <div class="container">
         <div class="news-list">
-            <? if ($arParams["DISPLAY_TOP_PAGER"]): ?>
+            <?php if ($arParams["DISPLAY_TOP_PAGER"]): ?>
                 <?=$arResult["NAV_STRING"]?><br/>
-            <? endif; ?>
+            <?php endif; ?>
             <?php
             if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?>
             <h2>artists</h2>
@@ -48,8 +48,10 @@
                     <?php endforeach; ?>
                 </div>
             <?php endif; ?>
-            <? if ($arParams["DISPLAY_BOTTOM_PAGER"]): ?>
-                <br/><?=$arResult["NAV_STRING"]?><? endif; ?>
+            <?php if ($arParams["DISPLAY_BOTTOM_PAGER"]): ?>
+                <br/><?=$arResult["NAV_STRING"]?>
+
+            <?php endif; ?>
         </div>
     </div>
 </section>
